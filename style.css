@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(21, 32 , 43);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 500px;
+    height: 800px;
+    border: black solid 10px;
+    gap: 2rem;
+    color: black;
+
+
+}
+.card h1{
+    font-size: 90px;
+    max-width: 500px;
+    /* margin-top: 50px; */
+}
+.card img{
+    width: 300px;
+}
+.card h2 {
+    font-size: 30px;
+}
