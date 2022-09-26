@@ -18,12 +18,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: yellow;
-    width: 500px;
+    /* width: 500px; */
     height: 800px;
     border: black solid 10px;
     gap: 2rem;
     color: black;
-
+    max-width: 100 vw;
 
 }
 .card h1{
