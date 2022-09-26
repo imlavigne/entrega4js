@@ -11,6 +11,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+    width: 100vw;
 }
 .card{
     display: flex;
@@ -23,11 +25,11 @@ body {
     border: black solid 10px;
     gap: 2rem;
     color: black;
-    max-width: 100 vw;
+    /* width: 100 vw; */
 
 }
 .card h1{
-    font-size: 90px;
+    font-size: 50px;
     max-width: 500px;
     /* margin-top: 50px; */
 }
